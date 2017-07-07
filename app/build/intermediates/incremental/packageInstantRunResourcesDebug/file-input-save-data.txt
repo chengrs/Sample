@@ -1,0 +1,24 @@
+#Internal package file, do not edit.
+#Tue Jul 04 15:10:25 CST 2017
+2.base=/Users/ray/AndroidStudioProjects/Sample/app/build/intermediates/res/resources-debug.ap_
+5.file=/Users/ray/AndroidStudioProjects/Sample/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
+5.set=ANDROID_RESOURCE
+3.base=/Users/ray/AndroidStudioProjects/Sample/app/build/intermediates/res/resources-debug.ap_
+6.file=/Users/ray/AndroidStudioProjects/Sample/app/build/intermediates/res/resources-debug.ap_/res/layout/activity_second.xml
+2.set=ANDROID_RESOURCE
+4.base=/Users/ray/AndroidStudioProjects/Sample/app/build/intermediates/res/resources-debug.ap_
+count=7
+0.file=/Users/ray/AndroidStudioProjects/Sample/app/build/intermediates/res/resources-debug.ap_/res/layout/main.xml
+5.base=/Users/ray/AndroidStudioProjects/Sample/app/build/intermediates/res/resources-debug.ap_
+4.set=ANDROID_RESOURCE
+6.base=/Users/ray/AndroidStudioProjects/Sample/app/build/intermediates/res/resources-debug.ap_
+1.file=/Users/ray/AndroidStudioProjects/Sample/app/build/intermediates/res/resources-debug.ap_/res/raw/demo_receiver.mp3
+1.set=ANDROID_RESOURCE
+2.file=/Users/ray/AndroidStudioProjects/Sample/app/build/intermediates/res/resources-debug.ap_/res/raw/music.mp3
+6.set=ANDROID_RESOURCE
+0.base=/Users/ray/AndroidStudioProjects/Sample/app/build/intermediates/res/resources-debug.ap_
+3.file=/Users/ray/AndroidStudioProjects/Sample/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/ic_launcher.png
+3.set=ANDROID_RESOURCE
+1.base=/Users/ray/AndroidStudioProjects/Sample/app/build/intermediates/res/resources-debug.ap_
+4.file=/Users/ray/AndroidStudioProjects/Sample/app/build/intermediates/res/resources-debug.ap_/resources.arsc
+0.set=ANDROID_RESOURCE

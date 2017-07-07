@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.auo.course"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="10" /> <!-- android:versionCode:內部版號, android:versionName:外部版號 -->
+
+
+    <!-- 跟系統要求需要的特殊權限 -->
+    <uses-permission android:name="android.permission.BROADCAST_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <!-- 關於整個application的描述 -->
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" > <!-- android:icon:程式icon, android:label:程式名稱 -->
+        <!-- 關於某個activity的描述 -->
+        <activity
+            android:name="com.auo.course.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" /> <!-- 代表這activity是這支程式的進入點 -->
+
+                <category android:name="android.intent.category.LAUNCHER" /> <!-- 代表這activity是這支程式的進入點 -->
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.auo.course.activity.FirstActivity"
+            android:label="@string/first_activity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+/
+        <activity
+            android:name="com.auo.course.activity.SecondActivity"
+            android:label="@string/second_activity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- 關於某個service的描述 -->
+        <service
+            android:name="com.auo.course.service.MusicService"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="com.auo.course.service.MUSIC" />
+
+                <category android:name="android.intent.category.default" />
+            </intent-filter>
+        </service>
+
+        <!-- 關於某個provider的描述 -->
+        <provider
+            android:name="com.auo.course.provider.MyContentProvider"
+            android:authorities="com.auo.ee" />
+
+        <!-- 關於某個receiver的描述 -->
+        <receiver android:name="com.auo.course.broadcast.MyBroadReciever" >
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="broadcast_action" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>
